@@ -1,0 +1,155 @@
+.Search {
+    width: 100%;
+    margin-top: 1vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Search .am-search {
+    height: 5vh;
+}
+
+.Search .am-search-input {
+    height: 4vh;
+}
+
+.Search .am-search-input .am-search-synthetic-ph {
+    height: 4vh;
+    line-height: 4vh;
+}
+
+.Search .am-search-input input[type=search] {
+    height: 4vh;
+    font-size: 3.5vw;
+    line-height: 2vw;
+    margin-left: 2vw;
+}
+
+.Search .am-search-input .am-search-clear {
+    height: 3vh;
+    width: 3vw;
+}
+
+.Search .am-search-cancel {
+    font-size: 3.8vw;
+}
+
+.Search .segment-update {
+    width: 96vw;
+}
+
+.Search .segment-update .am-segment-item {
+    font-size: 3vw;
+}
+
+.Search .am-search-synthetic-ph {
+    font-size: 3vw
+}
+
+.Search .am-search-synthetic-ph i {
+    width: 4vw;
+    height: 3vw;
+    background-size: 3vw auto;
+}
+
+.Search .am-search-synthetic-ph span {
+    font-size: 3vw;
+}
+
+.Search .suggest_list {
+    width: 98vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+.Search .suggest_list .am-list-item {
+    background-color: #f5f5f9;
+    min-height: 8.6vw;
+    font-size: 3vw;
+}
+
+.Search .am-list-item .am-list-content {
+    font-size: 3.5vw;
+    border-bottom: 1px solid #ccc;
+}
+
+.Search .Search_input {
+    height: 5vh;
+    overflow: hidden;
+}
+
+.Search .Content {
+    width: 100%;
+    flex: 1;
+    background: #fff;
+    position: relative;
+    margin-top: 1.5vh;
+}
+
+.Search .suggest_high_light {
+    font-style: normal;
+    color: #fb7299;
+}
+
+.Search .card-container .keyword {
+    font-style: normal;
+    color: #fb7299;
+}
+
+.Search .card-container {
+    width: 98vw;
+    overflow: hidden;
+    overflow-y: auto;
+    margin: 0 auto;
+}
+
+.Search .card-container .rankcard {
+    margin: 1.5vh auto !important;
+}
+
+.Search .history-card {}
+
+.Search .history-card .history-list .am-list-content {
+    color: #505050;
+    font-size: 4vw;
+}
+
+.Search .history-card .suggest_list .am-list-line {
+    padding: 1vw 1.5vw;
+}
+
+.Search .history-card .history-list .am-list-line {
+    padding: 1vw 1.5vw;
+}
+
+.Search .history-card .history-list .history-time {
+    width: 4.5vw;
+    height: 4.5vw;
+    margin-right: 1.5vw;
+}
+
+.Search .history-card .history-list .am-list-header {
+    font-size: 4vw;
+    padding: 2.5vw;
+    color: #999;
+    background: #fff;
+}
+
+.Search .news-loadMore {
+    color: #fb7299;
+    height: 6vh;
+    line-height: 6vh;
+    background: #fff;
+    font-size: 2.3vh;
+    margin-bottom: 1.5vh;
+}
+
+.Search .clear-history {
+    color: #999;
+    background: #fff;
+    font-size: 2.3vh;
+    margin-top: 0.5vh;
+}

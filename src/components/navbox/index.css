@@ -1,0 +1,116 @@
+.NavBox {
+    height: 4.5vh;
+    background: #fff;
+}
+
+.NavBox .part_box_one {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    color: #757575;
+    font-size: 4vw;
+    background: #fff;
+    z-index: 1;
+}
+
+.NavBox .part_content {
+    padding: 1vw;
+    width: 91vw;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+
+.NavBox .showmore {
+    height: 100%;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.NavBox .showmore i {
+    font-size: 8vw;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: -0.6vw;
+    top: -1vw;
+}
+
+.NavBox .activate {
+    color: #fb7299;
+}
+
+.NavBox .activate::after {
+    content: '';
+    width: 90%;
+    height: 7vw;
+    border-bottom: .5vw solid #fb7299;
+    position: absolute;
+    bottom: -1vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.NavBox .part_box_more {
+    width: 100vw;
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+    background: #fff;
+    color: #757575;
+    height: 0;
+    animation-iteration-count: 1;
+}
+
+.NavBox .showPart {
+    height: auto;
+}
+
+.NavBox .part_box_more .part_more {
+    display: block;
+}
+
+.NavBox .part_box_more .part_more li {
+    display: inline-block;
+    width: 20%;
+    height: 5.5vh;
+    font-size: 5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.NavBox .part_more p {
+    display: inline;
+    position: relative;
+}
+
+.NavBox .hidden_part_more {
+    text-align: center;
+}
+
+.NavBox .hidden_part_more i {
+    font-size: 7vw;
+}
+
+.NavBox .am-tabs-default-bar-top .am-tabs-default-bar-tab:after {
+    background-color: #fff !important;
+}
+
+.NavBox .update-box {
+    width: 8vw;
+    height: 4.5vh;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.NavBox .update-box i {
+    font-size: 4vw;
+    color: #999;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

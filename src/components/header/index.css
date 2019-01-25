@@ -1,0 +1,39 @@
+    .website-img {
+        display: inline-block;
+        margin-left: 3vw;
+        width: 20vw;
+    }
+    
+    .nav {
+        padding: 3vw;
+        padding-bottom: 4vw;
+        position: relative;
+        z-index: 1000;
+        background: #fff;
+    }
+    
+    .title {
+        display: inline-flex;
+        color: rgb(222, 105, 140);
+        position: relative;
+        left: 14vw;
+        font-size: 4vw;
+        top: -3vw;
+    }
+    
+    .github-link {
+        display: inline-flex;
+        overflow: hidden;
+        width: 8vw;
+        margin: 0 5vw;
+        border: .3vw solid #b2b2b2;
+        border-radius: 50%;
+        position: absolute;
+        right: -3vw;
+        top: 3vw;
+    }
+    
+    .github-iocn {
+        width: 100%;
+        height: 100%
+    }

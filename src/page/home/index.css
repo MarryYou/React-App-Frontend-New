@@ -1,0 +1,31 @@
+.Main {}
+
+.am-card {
+    background: #f4f4f4;
+}
+
+.am-card-header {
+    font-size: 4.5vw;
+    padding: 1.5vw 0 1.5vw 5vw;
+}
+
+.am-card-body {
+    padding: 0;
+    background: #fff;
+}
+
+.classify-container .CardBox {
+    width: 50vw;
+}
+
+.f-card {
+    padding-bottom: 5vh;
+}
+
+.news-loadMore {
+    color: #fb7299;
+    height: 6vh;
+    line-height: 6vh;
+    background: #fff;
+    font-size: 2.3vh;
+}
