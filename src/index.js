@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./page/app";
 import Main from "./page/home";
 import Rank from "./page/rank";
+import "lib-flexible";
 import * as serviceWorker from "./serviceWorker";
 import {
   BrowserRouter as Router,
